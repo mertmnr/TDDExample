@@ -3,7 +3,7 @@
  Mert Munar
  Software verification and validation
  Homework 1
- https://github.com/mertmnr/SoftwareVerificationAndValidation.git
+ https://github.com/mertmnr/TDDExample.git
 **/
 
 
@@ -50,7 +50,7 @@ class CalculatorTest {
     void testDivision5() {
         assertEquals(5, Calculator.divide(12.5, 2.5));
     }
-
+    */
     @Test
     void testDivision6() {
 
@@ -60,7 +60,7 @@ class CalculatorTest {
                 "IllegalArgumentException expected."
         );
 
-    } */
+    } 
     @ParameterizedTest
     @CsvSource({"10,2,5", "10,4,2.5","12.5,5,2.5","10,2.5,4","12.5,2.5,5"})
     void dataDrivenDivide(double a, double b, double expectedValue) {
